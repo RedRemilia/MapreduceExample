@@ -5,7 +5,6 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
-import java.text.DecimalFormat;
 
 public class SingleAvgScoreCountMapper extends Mapper<LongWritable, Text, AvgScoreBean, Text>{
 
